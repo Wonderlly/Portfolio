@@ -100,9 +100,7 @@ header {
 }
 
 .my-info {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
+  margin-bottom: auto;
 }
 
 .my-info a,.my-info p, .my-info h1 {
@@ -114,10 +112,12 @@ header {
 
 .my-info a,.my-info p {
   font-size: larger;
+  margin-bottom: 10px;
 }
 
 .my-info h1 {
   font-size: 41px;
+  margin-bottom: 20px;
 }
 
 .my-info i {
@@ -125,9 +125,9 @@ header {
 }
 
 .my-apresentation {
-  width: 30%;
+  width: 55%;
   margin-left: auto;
-  margin-right: 250px;
+  margin-right: 50px;
   font-family: cascadia;
   font-size: large;
   text-align: center;
@@ -177,6 +177,7 @@ header {
 
 .language:hover {
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 .language i {
